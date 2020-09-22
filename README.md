@@ -8,7 +8,7 @@
 
 ## ActiveMQ_JMX_attack
 
-研究CVE-2020-11998 总结无认证和认证情况对ActiveMq 开启 JMX攻击
+研究CVE-2020-11998时 总结无认证和认证情况对ActiveMq 开启 JMX攻击
 
 详情见项目中的PDF
 
