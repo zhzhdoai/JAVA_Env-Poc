@@ -1,0 +1,795 @@
+2020-09-18 23:16:03,901 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@cb644e: startup date [Fri Sep 18 23:16:03 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-18 23:16:04,559 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:04,778 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-18 23:16:04,912 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55324-1600442164787-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:04,929 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:04,931 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:04,935 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:04,936 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:04,939 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:04,941 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:04,944 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:04,945 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:05,273 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@48d61b48{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-18 23:16:05,323 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-18 23:16:05,324 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:05,325 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55324-1600442164787-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:05,326 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:05,659 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-18 23:16:05,816 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-18 23:16:05,817 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-18 23:16:05,861 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-18 23:16:05,991 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-18 23:16:06,049 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-18 23:16:22,093 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@cb644e: startup date [Fri Sep 18 23:16:22 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-18 23:16:22,614 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:22,645 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-18 23:16:22,655 | INFO  | Recovering from the journal @1:503 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-18 23:16:22,656 | INFO  | Recovery replayed 3 operations from the journal in 0.008 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-18 23:16:22,661 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-18 23:16:22,794 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55448-1600442182668-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:22,808 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:22,809 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:22,812 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:22,813 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:22,816 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:22,817 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:22,820 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-18 23:16:22,821 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:22,919 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@4e423aa2{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-18 23:16:22,950 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-18 23:16:22,951 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-18 23:16:22,952 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55448-1600442182668-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:22,953 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:16:23,294 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-18 23:16:23,369 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-18 23:16:23,369 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-18 23:16:23,403 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-18 23:16:23,506 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-18 23:16:23,563 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-18 23:24:54,168 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Fri Sep 18 23:24:54 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-18 23:24:54,771 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:24:54,780 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-18 23:29:50,398 | WARN  | Illegal character 0x0 in state=METHOD for buffer HeapByteBuffer@607438ef[p=5,l=7,c=16384,r=2]={JRMI\x00<<<\x02K>>>ages/black-footer...\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00} | org.eclipse.jetty.http.HttpParser | qtp1830745997-56
+2020-09-18 23:29:50,401 | WARN  | badMessage: 400 Illegal character 0x0 for HttpChannelOverHttp@ab1403a{r=0,c=false,a=IDLE,uri=} | org.eclipse.jetty.http.HttpParser | qtp1830745997-56
+2020-09-18 23:43:12,429 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Fri Sep 18 23:43:12 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-18 23:43:13,023 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-18 23:43:13,034 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-19 00:53:05,985 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Sat Sep 19 00:53:05 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-19 00:53:06,538 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-19 00:53:06,548 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-19 00:56:11,168 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Sat Sep 19 00:56:11 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-19 00:56:11,774 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-19 00:56:11,788 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-19 01:02:24,058 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Sat Sep 19 01:02:24 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-19 01:02:24,697 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-19 01:02:24,710 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-20 21:13:16,397 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Sun Sep 20 21:13:16 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-20 21:13:17,124 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-20 21:13:17,144 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-20 21:50:40,409 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4cf777e8: startup date [Sun Sep 20 21:50:40 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-20 21:50:40,980 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-20 21:50:40,993 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-20 22:17:09,092 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Sun Sep 20 22:17:09 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-20 22:17:09,666 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-20 22:17:09,676 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-20 22:19:02,736 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Sun Sep 20 22:19:02 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-20 22:19:03,425 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-20 22:19:03,435 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-20 22:20:50,729 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4bec1f0c: startup date [Sun Sep 20 22:20:50 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-20 22:20:51,465 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-20 22:20:51,483 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-20 22:25:18,542 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@4cf777e8: startup date [Sun Sep 20 22:25:18 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-20 22:25:19,157 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-20 22:25:19,166 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-20 22:31:57,788 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5700d6b1: startup date [Sun Sep 20 22:31:57 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-20 22:31:58,406 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-20 22:31:58,416 | INFO  | Database /Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb/lock is locked by another server. This broker is now in slave mode waiting a lock to be acquired | org.apache.activemq.store.SharedFileLocker | main
+2020-09-21 23:02:53,062 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55448-1600442182668-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,067 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,068 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,069 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,070 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,082 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,088 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,089 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,089 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,091 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,106 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55448-1600442182668-0:1) uptime 2 days 23 hours | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,106 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55448-1600442182668-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,107 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@cb644e: startup date [Fri Sep 18 23:16:22 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-21 23:02:53,120 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-21 23:47:26,270 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Mon Sep 21 23:47:26 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-21 23:47:26,916 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:47:27,008 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-21 23:47:27,022 | INFO  | Recovering from the journal @1:1335 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-21 23:47:27,136 | INFO  | Recovery replayed 9153 operations from the journal in 0.124 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-21 23:47:27,143 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-21 23:47:27,285 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-57109-1600703247151-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:47:27,343 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:47:27,345 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:47:27,352 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:47:27,355 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:47:27,360 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:47:27,362 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:47:27,366 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:47:27,368 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:47:27,507 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-21 23:47:27,568 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-21 23:47:27,570 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:47:27,571 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-57109-1600703247151-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:47:27,572 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:47:28,119 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-21 23:47:28,223 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-21 23:47:28,223 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-21 23:47:28,270 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-21 23:47:28,439 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-21 23:47:28,514 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-21 23:48:08,800 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-57109-1600703247151-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-21 23:48:08,801 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-21 23:48:08,801 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2020-09-21 23:48:08,802 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-21 23:48:08,803 | INFO  | Could not accept connection during shutdown  : {} | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:1.8.0_202]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:1.8.0_202]
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:1.8.0_202]
+	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:479)[activemq-client-5.15.0.jar:5.15.0]
+	at java.lang.Thread.run(Thread.java:748)[:1.8.0_202]
+2020-09-21 23:48:08,804 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-21 23:48:08,806 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-21 23:48:08,812 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-21 23:48:08,814 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2020-09-21 23:48:08,815 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-21 23:48:08,815 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-21 23:48:08,816 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-21 23:48:08,822 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-57109-1600703247151-0:1) uptime 41.928 seconds | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-21 23:48:08,823 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-57109-1600703247151-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-21 23:48:08,824 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Mon Sep 21 23:47:26 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2020-09-21 23:48:08,829 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-23
+2020-09-21 23:58:42,158 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Mon Sep 21 23:58:42 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-21 23:58:42,691 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:58:42,749 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-21 23:58:42,760 | INFO  | Recovering from the journal @1:1091017 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-21 23:58:42,761 | INFO  | Recovery replayed 9 operations from the journal in 0.009 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-21 23:58:42,766 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-21 23:58:42,906 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-59791-1600703922773-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:58:42,959 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:58:42,960 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:58:42,963 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:58:42,965 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:58:42,968 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:58:42,970 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:58:42,973 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-21 23:58:42,974 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:58:43,049 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-21 23:58:43,080 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-21 23:58:43,082 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-21 23:58:43,082 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-59791-1600703922773-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:58:43,083 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-21 23:58:43,544 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-21 23:58:43,611 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-21 23:58:43,611 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-21 23:58:43,645 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-21 23:58:43,757 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-21 23:58:43,825 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:03:30,260 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-59791-1600703922773-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,261 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2020-09-22 00:03:30,261 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,262 | INFO  | Could not accept connection during shutdown  : {} | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)[:1.8.0_202]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)[:1.8.0_202]
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)[:1.8.0_202]
+	at org.apache.activemq.transport.tcp.TcpTransportServer$1.run(TcpTransportServer.java:479)[activemq-client-5.15.0.jar:5.15.0]
+	at java.lang.Thread.run(Thread.java:748)[:1.8.0_202]
+2020-09-22 00:03:30,263 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,265 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,266 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,272 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,274 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,275 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,275 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,276 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,284 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-59791-1600703922773-0:1) uptime 4 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,284 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-59791-1600703922773-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,285 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Mon Sep 21 23:58:42 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:03:30,291 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:03:34,929 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:03:34 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:03:35,514 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:03:35,572 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:03:35,582 | INFO  | Recovering from the journal @1:1092563 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:03:35,586 | INFO  | Recovery replayed 58 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:03:35,591 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:03:35,723 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-60771-1600704215599-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:03:35,780 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:03:35,783 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:03:35,787 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:03:35,789 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:03:35,792 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:03:35,794 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:03:35,796 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:03:35,797 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:03:35,879 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:03:35,918 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:03:35,919 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:03:35,919 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-60771-1600704215599-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:03:35,920 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:03:36,334 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:03:36,406 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:03:36,406 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:03:36,444 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:03:36,549 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:03:36,616 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:04:09,150 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-60771-1600704215599-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,151 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,152 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,153 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,154 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,161 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,164 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,164 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,165 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,166 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,174 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-60771-1600704215599-0:1) uptime 33.673 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,174 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-60771-1600704215599-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,175 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:03:34 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:04:09,180 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:05:30,639 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:05:30 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:05:31,227 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:31,295 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:05:31,306 | INFO  | Recovering from the journal @1:1099940 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:05:31,307 | INFO  | Recovery replayed 7 operations from the journal in 0.009 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:05:31,314 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:05:31,452 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61091-1600704331323-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:31,500 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:31,501 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:31,504 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:31,506 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:31,509 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:31,510 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:31,513 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:31,514 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:31,600 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:05:31,640 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:05:31,642 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:31,643 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61091-1600704331323-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:31,644 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:31,988 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:05:32,065 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:05:32,065 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:05:32,103 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:05:32,215 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:05:32,282 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:05:37,242 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61091-1600704331323-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:05:37,244 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:05:37,245 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:05:37,246 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:05:37,247 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:05:37,254 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:05:37,257 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2020-09-22 00:05:37,257 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:05:37,258 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:05:37,259 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:05:37,268 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61091-1600704331323-0:1) uptime 6.053 seconds | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:05:37,269 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61091-1600704331323-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:05:37,270 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:05:30 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2020-09-22 00:05:37,275 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-23
+2020-09-22 00:05:52,356 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:05:52 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:05:52,926 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:52,985 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:05:52,998 | INFO  | Recovering from the journal @1:1101248 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:05:53,000 | INFO  | Recovery replayed 2 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:05:53,006 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:05:53,145 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61148-1600704353017-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:53,194 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:53,195 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:53,199 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:53,200 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:53,202 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:53,204 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:53,206 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:05:53,207 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:53,286 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:05:53,324 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:05:53,325 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:05:53,326 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61148-1600704353017-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:53,327 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:05:53,682 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:05:53,756 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:05:53,757 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:05:53,797 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:05:53,913 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:05:53,983 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:06:21,112 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61148-1600704353017-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,114 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,115 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,116 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,117 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,124 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,127 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,127 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,128 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,129 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,138 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61148-1600704353017-0:1) uptime 28.223 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,139 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61148-1600704353017-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,140 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:05:52 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:06:21,145 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:07:37,563 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:07:37 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:07:38,117 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:07:38,177 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:07:38,189 | INFO  | Recovering from the journal @1:1101961 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:07:38,190 | INFO  | Recovery replayed 6 operations from the journal in 0.009 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:07:38,197 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:07:38,329 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61438-1600704458206-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:07:38,376 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:07:38,377 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:07:38,380 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:07:38,382 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:07:38,384 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:07:38,386 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:07:38,389 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:07:38,391 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:07:38,478 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:07:38,519 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:07:38,520 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:07:38,522 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61438-1600704458206-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:07:38,523 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:07:38,897 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:07:38,977 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:07:38,977 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:07:39,020 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:07:39,131 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:07:39,197 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:18:58,113 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61438-1600704458206-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,114 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,115 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,116 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,117 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,124 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,127 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,128 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,128 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,129 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,137 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61438-1600704458206-0:1) uptime 11 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,138 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-61438-1600704458206-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,138 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:07:37 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:18:58,143 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:20:37,779 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:20:37 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:20:38,300 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:38,363 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:20:38,372 | INFO  | Recovering from the journal @1:1103150 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:20:38,378 | INFO  | Recovery replayed 136 operations from the journal in 0.012 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:20:38,383 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:20:38,512 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64057-1600705238390-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:38,556 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:38,557 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:38,560 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:38,561 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:38,563 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:38,564 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:38,567 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:38,568 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:38,644 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:20:38,674 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:20:38,675 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:38,676 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64057-1600705238390-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:38,677 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:38,980 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:20:39,048 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:20:39,048 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:20:39,086 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:20:39,187 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:20:39,246 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:20:42,905 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64057-1600705238390-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,906 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,907 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,908 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,908 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,914 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,916 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,916 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,917 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,917 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,925 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64057-1600705238390-0:1) uptime 4.636 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,926 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64057-1600705238390-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,927 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:20:37 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:20:42,931 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:20:48,137 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:20:48 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:20:48,686 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:48,747 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:20:48,766 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:20:48,899 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64089-1600705248776-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:48,947 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:48,948 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:48,951 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:48,952 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:48,955 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:48,956 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:48,959 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:20:48,960 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:49,042 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@302f7971{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:20:49,080 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:20:49,081 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:20:49,082 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64089-1600705248776-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:49,084 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:20:49,418 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:20:49,490 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:20:49,490 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:20:49,528 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:20:49,662 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:20:49,703 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:21:12,880 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64089-1600705248776-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:21:12,882 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:21:12,883 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:21:12,884 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:21:12,885 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:21:12,892 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:21:12,895 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2020-09-22 00:21:12,895 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:21:12,896 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:21:12,897 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:21:12,905 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64089-1600705248776-0:1) uptime 24.230 seconds | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:21:12,906 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64089-1600705248776-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:21:12,907 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:20:48 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2020-09-22 00:21:12,914 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-23
+2020-09-22 00:21:35,007 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:21:35 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:21:35,558 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:21:35,619 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:21:35,632 | INFO  | Recovering from the journal @1:1120403 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:21:35,633 | INFO  | Recovery replayed 5 operations from the journal in 0.01 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:21:35,640 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:21:35,771 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64211-1600705295648-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:21:35,818 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:21:35,820 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:21:35,823 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:21:35,824 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:21:35,828 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:21:35,829 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:21:35,833 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:21:35,834 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:21:35,920 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:21:35,963 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:21:35,965 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:21:35,966 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64211-1600705295648-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:21:35,966 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:21:36,346 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:21:36,421 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:21:36,421 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:21:36,458 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:21:36,583 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:21:36,666 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:28:09,994 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64211-1600705295648-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:28:09,996 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:28:09,997 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:28:09,998 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:28:09,999 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,006 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,008 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,009 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,009 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,010 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,018 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64211-1600705295648-0:1) uptime 6 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,019 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-64211-1600705295648-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,019 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:21:35 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:28:10,025 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:28:15,657 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:28:15 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:28:16,280 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:28:16,346 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:28:16,362 | INFO  | Recovering from the journal @1:1121473 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:28:16,371 | INFO  | Recovery replayed 79 operations from the journal in 0.021 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:28:16,379 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:28:16,514 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-49922-1600705696390-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:28:16,559 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:28:16,561 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:28:16,565 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:28:16,566 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:28:16,570 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:28:16,571 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:28:16,574 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:28:16,575 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:28:16,672 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:28:16,734 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:28:16,735 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:28:16,737 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-49922-1600705696390-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:28:16,738 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:28:17,176 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:28:17,248 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:28:17,249 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:28:17,288 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:28:17,415 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:28:17,490 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:29:19,340 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-49922-1600705696390-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,342 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,343 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,344 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,345 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,351 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,354 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,355 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,355 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,356 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,365 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-49922-1600705696390-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,366 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-49922-1600705696390-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,366 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:28:15 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:29:19,371 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:29:21,982 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:29:21 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:29:22,627 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:29:22,699 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:29:22,711 | INFO  | Recovering from the journal @1:1131349 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:29:22,713 | INFO  | Recovery replayed 13 operations from the journal in 0.01 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:29:22,719 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:29:22,857 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-50100-1600705762731-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:29:22,907 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:29:22,908 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:29:22,911 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:29:22,913 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:29:22,915 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:29:22,917 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:29:22,920 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:29:22,921 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:29:22,996 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:29:23,034 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:29:23,035 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:29:23,036 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-50100-1600705762731-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:29:23,037 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:29:23,432 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:29:23,514 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:29:23,515 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:29:23,560 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:29:23,669 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:29:23,739 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:41:45,643 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-50100-1600705762731-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:41:45,646 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:41:45,647 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:41:45,648 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:41:45,649 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:41:45,656 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-23
+2020-09-22 00:41:45,659 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-23
+2020-09-22 00:41:45,660 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:41:45,660 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:41:45,661 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-23
+2020-09-22 00:41:45,669 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-50100-1600705762731-0:1) uptime 12 minutes | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:41:45,670 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-50100-1600705762731-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-23
+2020-09-22 00:41:45,671 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:29:21 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-23
+2020-09-22 00:41:45,676 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-23
+2020-09-22 00:41:49,296 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:41:49 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:41:50,090 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:41:50,167 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:41:50,185 | INFO  | Recovering from the journal @1:1133371 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:41:50,194 | INFO  | Recovery replayed 148 operations from the journal in 0.023 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:41:50,201 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:41:50,340 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-52884-1600706510214-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:41:50,394 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:41:50,395 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:41:50,400 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:41:50,402 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:41:50,407 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:41:50,409 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:41:50,412 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:41:50,413 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:41:50,558 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:41:50,597 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:41:50,598 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:41:50,599 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-52884-1600706510214-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:41:50,600 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:41:51,001 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:41:51,079 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:41:51,080 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:41:51,118 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:41:51,237 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:41:51,317 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:45:01,124 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-52884-1600706510214-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,126 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,127 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,127 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,128 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,134 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,136 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,137 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,137 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,138 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,144 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-52884-1600706510214-0:1) uptime 3 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,144 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-52884-1600706510214-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,146 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:41:49 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:45:01,151 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:45:07,479 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:45:07 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:45:08,135 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:45:08,200 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:45:08,210 | INFO  | Recovering from the journal @1:1151458 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:45:08,213 | INFO  | Recovery replayed 38 operations from the journal in 0.01 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:45:08,219 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:45:08,351 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-54108-1600706708229-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:45:08,398 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:45:08,399 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:45:08,402 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:45:08,404 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:45:08,406 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:45:08,408 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:45:08,411 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:45:08,412 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:45:08,496 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:45:08,539 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:45:08,540 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:45:08,541 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-54108-1600706708229-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:45:08,542 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:45:08,967 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:45:09,063 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:45:09,064 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:45:09,118 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:45:09,239 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:45:09,330 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 00:53:47,505 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-54108-1600706708229-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,506 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,508 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,509 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,510 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,516 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,519 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,520 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,521 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,522 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,530 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-54108-1600706708229-0:1) uptime 8 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,531 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-54108-1600706708229-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,532 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:45:07 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 00:53:47,537 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 00:53:51,620 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:53:51 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 00:53:52,254 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:53:52,323 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:53:52,334 | INFO  | Recovering from the journal @1:1156455 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:53:52,339 | INFO  | Recovery replayed 104 operations from the journal in 0.012 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 00:53:52,346 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 00:53:52,477 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55898-1600707232355-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:53:52,525 | INFO  | Listening for connections at: tcp://osworddeMBP:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:53:52,526 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:53:52,529 | INFO  | Listening for connections at: amqp://osworddeMBP:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:53:52,531 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:53:52,534 | INFO  | Listening for connections at: stomp://osworddeMBP:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:53:52,535 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:53:52,538 | INFO  | Listening for connections at: mqtt://osworddeMBP:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 00:53:52,539 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:53:52,621 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 00:53:52,662 | INFO  | Listening for connections at ws://osworddeMBP:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 00:53:52,664 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 00:53:52,665 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55898-1600707232355-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:53:52,665 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 00:53:53,060 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 00:53:53,134 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:53:53,134 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 00:53:53,175 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 00:53:53,302 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 00:53:53,377 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 10:50:04,696 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55898-1600707232355-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,699 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,700 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,701 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,702 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,708 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,711 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,711 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,712 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,713 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,721 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55898-1600707232355-0:1) uptime 9 hours 56 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,722 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMBP-55898-1600707232355-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,723 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 00:53:51 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 10:50:04,728 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 10:50:10,141 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 10:50:10 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 10:50:10,714 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:50:10,794 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 10:50:10,808 | INFO  | Recovering from the journal @1:1169306 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 10:50:10,832 | INFO  | Recovery replayed 843 operations from the journal in 0.034 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 10:50:10,839 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 10:50:10,970 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50027-1600743010847-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:50:11,018 | INFO  | Listening for connections at: tcp://osworddeMacBook-Pro.local:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:50:11,020 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:50:11,022 | INFO  | Listening for connections at: amqp://osworddeMacBook-Pro.local:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:50:11,024 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:50:11,027 | INFO  | Listening for connections at: stomp://osworddeMacBook-Pro.local:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:50:11,029 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:50:11,032 | INFO  | Listening for connections at: mqtt://osworddeMacBook-Pro.local:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:50:11,033 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:50:11,212 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 10:50:11,250 | INFO  | Listening for connections at ws://osworddeMacBook-Pro.local:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 10:50:11,251 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:50:11,252 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50027-1600743010847-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:50:11,253 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:50:11,631 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 10:50:11,708 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 10:50:11,708 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 10:50:11,745 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 10:50:11,852 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 10:50:11,930 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 10:51:57,758 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50027-1600743010847-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,760 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,760 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,761 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,762 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,768 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,770 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,771 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,771 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,772 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,780 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50027-1600743010847-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,781 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50027-1600743010847-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,782 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 10:50:10 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 10:51:57,787 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 10:53:01,051 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 10:53:01 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 10:53:01,595 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:53:01,655 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 10:53:01,665 | INFO  | Recovering from the journal @1:1270098 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 10:53:01,668 | INFO  | Recovery replayed 22 operations from the journal in 0.01 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 10:53:01,673 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 10:53:01,803 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50475-1600743181681-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:53:01,846 | INFO  | Listening for connections at: tcp://osworddeMacBook-Pro.local:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:53:01,848 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:53:01,851 | INFO  | Listening for connections at: amqp://osworddeMacBook-Pro.local:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:53:01,852 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:53:01,855 | INFO  | Listening for connections at: stomp://osworddeMacBook-Pro.local:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:53:01,856 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:53:01,858 | INFO  | Listening for connections at: mqtt://osworddeMacBook-Pro.local:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 10:53:01,860 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:53:01,927 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 10:53:01,958 | INFO  | Listening for connections at ws://osworddeMacBook-Pro.local:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 10:53:01,959 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 10:53:01,960 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50475-1600743181681-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:53:01,961 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 10:53:02,375 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 10:53:02,466 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 10:53:02,466 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 10:53:02,522 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 10:53:02,644 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 10:53:02,708 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 12:00:27,055 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50475-1600743181681-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,058 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,060 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,067 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,070 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,076 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,079 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,080 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,080 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,082 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,091 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50475-1600743181681-0:1) uptime 1 hour 7 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,092 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-50475-1600743181681-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,092 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 10:53:01 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 12:00:27,097 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2020-09-22 12:25:22,355 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 12:25:22 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-09-22 12:25:22,928 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-09-22 12:25:23,013 | INFO  | KahaDB is version 6 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 12:25:23,026 | INFO  | Recovering from the journal @1:1273191 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 12:25:23,047 | INFO  | Recovery replayed 805 operations from the journal in 0.028 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-09-22 12:25:23,053 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-09-22 12:25:23,187 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-51919-1600748723061-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-09-22 12:25:23,234 | INFO  | Listening for connections at: tcp://osworddeMacBook-Pro.local:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 12:25:23,235 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 12:25:23,238 | INFO  | Listening for connections at: amqp://osworddeMacBook-Pro.local:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 12:25:23,240 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 12:25:23,243 | INFO  | Listening for connections at: stomp://osworddeMacBook-Pro.local:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 12:25:23,244 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 12:25:23,247 | INFO  | Listening for connections at: mqtt://osworddeMacBook-Pro.local:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-09-22 12:25:23,248 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 12:25:23,331 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@9573584{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2020-09-22 12:25:23,380 | INFO  | Listening for connections at ws://osworddeMacBook-Pro.local:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2020-09-22 12:25:23,382 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2020-09-22 12:25:23,383 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-51919-1600748723061-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-09-22 12:25:23,383 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-09-22 12:25:23,862 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /admin | main
+2020-09-22 12:25:24,054 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 12:25:24,054 | INFO  | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2020-09-22 12:25:24,108 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-09-22 12:25:24,237 | INFO  | No Spring WebApplicationInitializer types detected on classpath | /api | main
+2020-09-22 12:25:24,320 | INFO  | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml | /api | main
+2020-09-22 17:49:44,794 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-51919-1600748723061-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,800 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,801 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,803 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,805 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,823 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,830 | INFO  | PListStore:[/Users/osword/Desktop/active/apache-activemq-5.15.0/data/localhost/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,831 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,832 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,835 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,848 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-51919-1600748723061-0:1) uptime 5 hours 24 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,851 | INFO  | Apache ActiveMQ 5.15.0 (localhost, ID:osworddeMacBook-Pro.local-51919-1600748723061-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,853 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7085bdee: startup date [Tue Sep 22 12:25:22 CST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2020-09-22 17:49:44,866 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
